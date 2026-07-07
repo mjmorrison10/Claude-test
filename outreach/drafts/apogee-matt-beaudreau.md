@@ -14,19 +14,21 @@
 
 > Subject: made you 3 clips (free)
 >
-> Hey [Matt] — I took your recent episode with Rome Scurry and cut it into 3 short-form clips: captioned, vertical, ready to post. No charge, they're yours:
+> Hey Matt,
 >
-> • "Which path are you gonna choose" — the anti-fragility / hero-vs-villain moment
-> • "It was probably over for me" — Rome's comeback story
-> • "How people speak about you when you're not there"
+> I took your recent episode with Rome Scurry and cut it into 3 short form clips. Captioned, vertical, ready to post. No charge, they're yours:
+>
+> 1. "Which path are you gonna choose" (the anti fragility, hero vs villain moment)
+> 2. "It was probably over for me" (Rome's comeback story)
+> 3. "How people speak about you when you're not there"
 >
 > [links]
 >
-> I do this for creators in the young-men's development space — turning your long episodes into a steady stream of shorts, so the Apogee message reaches more of the guys who need it instead of staying buried in 45-minute videos.
+> I do this for creators in the young men's development space. I turn your long episodes into a steady stream of shorts, so the Apogee message reaches more of the guys who need it instead of staying buried in 45 minute videos.
 >
 > Want me to send a few more from your recent episodes this week?
 >
-> — [Your name]
+> [Your name]
 
 ---
 
