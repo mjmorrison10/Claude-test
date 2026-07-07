@@ -6,7 +6,11 @@ _Proof lives here. This is the fix for "my accounts got banned and I have nothin
 
 | Date | For (client / "spec") | Source | Clip / link | Result | Notes |
 |---|---|---|---|---|---|
-| 2026-07-07 | Spec (Apogee / @apogeeprogram) | "The Mindset Young Men Need Today" (44-min interview, host + guest Rome Scurry) | [share.descript.com/view/67VsmbhdQH2](https://share.descript.com/view/67VsmbhdQH2) — "Which Path Will You Choose" (60s, vertical, captioned) | First clip produced — pipeline proven end-to-end | Cut from the host's self-belief / anti-fragility / "hero vs villain" monologue. Matt not in this episode; features guest. Descript project: 1f5e67f7-5206-4fb1-af79-0b2ca202ab38 |
+| 2026-07-07 | Spec (Apogee / @apogeeprogram) | "The Mindset Young Men Need Today" (44-min interview, host + guest Rome Scurry) | [Which Path Will You Choose](https://share.descript.com/view/67VsmbhdQH2) (60s) | Sample | Anti-fragility / "hero vs villain" monologue. One-word karaoke captions, centered, vertical. |
+| 2026-07-07 | Spec (Apogee / @apogeeprogram) | same episode | [It Was Probably Over For Me](https://share.descript.com/view/pLiQOpNgl3k) (59s) | Sample | Guest's comeback story — pregnant at 15, wife broke cross-country record after giving birth. |
+| 2026-07-07 | Spec (Apogee / @apogeeprogram) | same episode | [How People Speak About You](https://share.descript.com/view/ROq46WvAN2d) (40s) | Sample | Reputation/character nugget. |
+
+_All 3 cut from ONE 44-min download. Descript project: 1f5e67f7-5206-4fb1-af79-0b2ca202ab38. Note: watermarked (free plan) + feature the guest, not Matt — see outreach draft's pre-send checklist._
 
 ## What to capture per clip
 - **Source:** the original episode/video (link).
