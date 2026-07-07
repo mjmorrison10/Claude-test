@@ -7,9 +7,13 @@ _The single source of truth for who we're talking to and what happens next. Clau
 
 ## Active
 
-| Priority | Name | Type | Stage | Last action | Next action | Notes |
-|---|---|---|---|---|---|---|
-| 🔥 1 | **Come On Man Podcast** | Warm (former client) | Reactivate | — | Draft re-engagement msg: reconnect, ask for a short testimonial, offer a fresh free clip, feel out re-signing + referrals | On good terms. Highest-value asset we have — a testimonial here seeds all future proof. Do NOT send without owner review. |
+_Empty — fill via ICP prospecting._
+
+## Referral partners (nurture, don't sell)
+
+| Name | Relationship | Next action | Notes |
+|---|---|---|---|
+| **Come On Man Podcast** | Former client, now a referral source | Keep warm: stay active in his paid community, drop occasional useful info/gold nuggets. When we have a strong portfolio reel, ask if he'll pass it to creators he knows. | **Not a re-sign target** — paid $10/clip (too low), uses AI for clips now, not interested, and we don't want to re-sign→churn him again (bad for reputation). But he *recommends us to others*, which is more valuable. Reciprocal relationship: we're in his community and share intel. Handle with care — this is a long game, never a hard pitch. |
 
 ## Prospect backlog (to research)
 
@@ -21,4 +25,4 @@ Every row should always have a concrete next action and, ideally, a date. If a r
 
 ## Testimonials / proof captured
 
-_None yet. First target: a quote from Come On Man Podcast. Log captured testimonials here with source and date._
+_None yet. Come On Man could still be a source of a testimonial or referral intro down the line (he's on good terms), but only once we have a portfolio worth showing — no ask yet. Rebuild proof primarily through new free-sample work. Log captured testimonials here with source and date._
