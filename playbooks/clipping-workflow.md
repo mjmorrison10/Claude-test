@@ -9,7 +9,7 @@ _How a long-form piece becomes finished shorts._
 ## Steps
 
 ### 1. Import
-Bring the source into Descript (via URL or upload).
+Bring the source into Descript. **Standard intake:** the Google Drive folder **"Clip Sources — drop raw videos here"** (https://drive.google.com/drive/folders/1n7uljxPBx9IffGvgj69pMmj4f5PKzNbJ). Owner or client drops a raw video there; Descript imports Drive links natively. (Direct file links and Dropbox also work. Note: YouTube URLs do NOT import directly — grab the file first.)
 
 ### 2. Find the moments
 Read the transcript and mark the highest-potential moments. Good clip DNA for this niche:
