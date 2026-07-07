@@ -21,8 +21,8 @@ _First batch, sourced 2026-07-07 from podcast directories (the right channel for
 
 | Prospect | Host | Fit / why | Upsell angle to plant | Contact lead | Stage |
 |---|---|---|---|---|---|
-| **Apogee Strong** | Matt Beaudreau | Leadership/mentorship for young men. **Long-form podcast (~61 min avg)** = tons of clip material. Runs a paid mentorship program → budget. | Full short-form mgmt; likely needs funnel help for the program. | Website + podcast listing (find business email) | Lead |
-| **Prince to King** | Dylan Roos | **VERIFIED.** Masculinity coach, young men 14–23; "Prince to King" mentorship, 200+ mentees → real budget. Son of AFL coach Paul Roos (built-in credibility). ~10.8k IG (@dylan.roos). Australian. | Website exists — clips first, then AI lead-capture automation for mentorship applications. | dylanrooscoaching.com / IG @dylan.roos (verify email) | **Sample in progress** |
+| **Apogee Strong** 🔥 | Matt Beaudreau | **NEXT TARGET.** Young-men's mentorship program (real budget). **467 episodes**, interview format (almost certainly filmed video = passes the video qualifier), active into late 2025 = huge, fresh clip library. | Full short-form mgmt + funnel help for the program. | Website + podcast listings (find business email) | Lead — verify video, then sample |
+| ~~**Prince to King**~~ | ~~Dylan Roos~~ | **SKIPPED (2026-07-07).** Fails the video qualifier: own YouTube is audio-only; only video is a year-old third-party interview. Weak sample source. Good coach, wrong fit for a *clip* pitch right now. | — | — | **Disqualified — no own video** |
 | **The Godly Young Men Podcast** | Jack Wilkie | Faith-based masculinity, discipline/confidence/career. ~34 min eps (clippable), 133 Apple reviews = real traction. Org behind it (focuspress.org) → budget. | Clips + repurposing; possible email/community automation. | focuspress.org | Lead |
 
 **Skipped (too small to afford a retainer yet — nurture later):** Kings Can Move On (~176 IG), 618 Hunt Co. (~402 IG).

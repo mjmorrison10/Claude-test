@@ -7,7 +7,7 @@ _Who we target first. The tighter this is, the better our prospecting and outrea
 A **male self-improvement coach or course seller** who:
 
 - Sells something with margin: a **course, community, or coaching program** (money to pay us).
-- Already produces **long-form content** — a podcast and/or YouTube channel — so raw footage to clip already exists.
+- Produces **their own, recent, long-form VIDEO content** — a video podcast or YouTube channel with footage from the last few months. **This is a hard qualifier.** Audio-only podcasts and stale/third-party footage make weak samples ("I clipped your stuff" only lands if it's *their* stuff, and recent). Verify real video exists *before* investing in a sample.
 - Is **active but inconsistent on short-form** (IG Reels, TikTok, YouTube Shorts, X). Posting rarely, or posting low-effort clips. This is the pain we relieve.
 - Sits in the **follower sweet spot: ~10k–500k**. Big enough to afford us, small enough to still need help and not already have a full team.
 
