@@ -35,6 +35,11 @@ See [`offers-and-pricing.md`](offers-and-pricing.md) for the detail on each rung
 - Build a **portfolio of 15–20 logged clips** with at least one named testimonial.
 - Prove the upsell path by selling **one** non-clipping service (website or automation) to an existing client.
 
+## Owner assets & to-dos
+
+- **Website — mjmorrisonusa.com:** currently a placeholder ("Michael Morrison, Web Developer & Growth Strategist," no real content). **Do NOT link in outreach yet** — an empty site hurts credibility. To-do (later, not urgent): rebuild it into a real portfolio/landing page. Doubles as proof of the website-build upsell. Until then, proof = the clips + a shareable portfolio folder/reel.
+- **Proof for now:** finished clips logged in `portfolio/`, assembled into a simple reel once we have ~8–10.
+
 ## Guardrails
 
 - **Nothing goes out without owner review** during setup. Drafts first, send on approval.
