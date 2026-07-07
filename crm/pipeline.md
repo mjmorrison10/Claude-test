@@ -21,7 +21,7 @@ _First batch, sourced 2026-07-07 from podcast directories (the right channel for
 
 | Prospect | Host | Fit / why | Upsell angle to plant | Contact lead | Stage |
 |---|---|---|---|---|---|
-| **Apogee** (@apogeeprogram) 🔥 | Matt Beaudreau (channel owner) | **SAMPLE MADE.** YouTube: youtube.com/@apogeeprogram. 467 episodes, filmed interviews = big clip library. NOTE: content skews first-responder/police-wellness ("Apogee Responders") — confirm this is the same "Apogee Strong" we intended and who exactly to pitch. | Full short-form mgmt + funnel help. | @apogeeprogram / find business email | **1 sample clip done — need Matt-featured clip + email** |
+| **Apogee Strong** (@apogeeprogram) 🔥 | Matt Beaudreau ("The Education Dude"), co-founder w/ Tim Kennedy | **DRAFT IN GMAIL, AWAITING SEND (2026-07-07).** Confirmed = Matt's program (apogeestrong.com). 3 sample clips made + cold email drafted to theeducationdude@gmail.com (sourced via ContactOut — verify). Clips still watermarked (owner's call, not upgrading Descript yet). | Full short-form mgmt + funnel help. | theeducationdude@gmail.com (verify) / apogeestrong.com/contact | **Draft staged — Michael to review & hit Send** |
 | ~~**Prince to King**~~ | ~~Dylan Roos~~ | **SKIPPED (2026-07-07).** Fails the video qualifier: own YouTube is audio-only; only video is a year-old third-party interview. Weak sample source. Good coach, wrong fit for a *clip* pitch right now. | — | — | **Disqualified — no own video** |
 | **The Godly Young Men Podcast** | Jack Wilkie | Faith-based masculinity, discipline/confidence/career. ~34 min eps (clippable), 133 Apple reviews = real traction. Org behind it (focuspress.org) → budget. | Clips + repurposing; possible email/community automation. | focuspress.org | Lead |
 
