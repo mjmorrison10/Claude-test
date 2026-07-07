@@ -6,7 +6,7 @@ _Proof lives here. This is the fix for "my accounts got banned and I have nothin
 
 | Date | For (client / "spec") | Source | Clip / link | Result | Notes |
 |---|---|---|---|---|---|
-| _—_ | _first entry goes here_ | | | | |
+| 2026-07-07 | Spec (Apogee / @apogeeprogram) | "The Mindset Young Men Need Today" (44-min interview, host + guest Rome Scurry) | [share.descript.com/view/67VsmbhdQH2](https://share.descript.com/view/67VsmbhdQH2) — "Which Path Will You Choose" (60s, vertical, captioned) | First clip produced — pipeline proven end-to-end | Cut from the host's self-belief / anti-fragility / "hero vs villain" monologue. Matt not in this episode; features guest. Descript project: 1f5e67f7-5206-4fb1-af79-0b2ca202ab38 |
 
 ## What to capture per clip
 - **Source:** the original episode/video (link).
