@@ -59,3 +59,43 @@ what works is one dispatcher layer per delegation, with synthesis always
 landing at the top. Scaling this to other divisions should follow the same
 pattern: a dispatcher agent per team, tools scoped to `Task` + read-only,
 no synthesis responsibility in the prompt.
+
+## Full rollout
+
+Two things happened everywhere this pattern was rolled out:
+
+1. **Every leaf specialist across all repos got a `tools:` restriction with
+   no `Task` in it** — the sales pilot's three specialists already had this;
+   the other ~59 installed specialist copies (engineering, security,
+   testing, design, business/specialized) did not, so they got one added.
+   Two files (`marketing-content-creator.md`, `specialized-pricing-analyst.md`)
+   already shipped a safe `tools:` list upstream and were left alone. This
+   closes the gap: no installed specialist, in any repo, can spawn an agent.
+2. **A dispatcher was added per division per repo**, sized to what's
+   actually installed there — no dispatcher was created for a division with
+   only one specialist in a given repo (nothing to route between).
+
+| Repo | Dispatcher(s) | Reports to each |
+|---|---|---|
+| PriceSpy | Head of Engineering | Backend Architect, Database Optimizer, AI Engineer, Code Reviewer, Git Workflow Master, DevOps Automator, Minimal Change Engineer, Technical Writer |
+| PriceSpy | Head of Security | Application Security Engineer, Senior SecOps Engineer |
+| PriceSpy | Head of Business Ops | Pricing Analyst, Retail Customer Returns, Supply Chain Strategist, Document Generator, Finance Tracker |
+| PriceSpy | *(no dispatcher)* | API Tester — only tester installed, called directly |
+| cypress-flips | Head of Engineering | Payments & Billing Engineer, Frontend Developer, Database Optimizer, Code Reviewer, Git Workflow Master, DevOps Automator, Minimal Change Engineer |
+| cypress-flips | Head of QA | Test Automation Engineer, Accessibility Auditor |
+| cypress-flips | Head of Growth | Content Creator, Analytics Reporter |
+| cypress-flips | *(no dispatcher)* | UI Designer, Senior SecOps Engineer — one each, called directly |
+| mjmorrisonusa | Portfolio Lead | Frontend Developer, UI Designer, Code Reviewer, Git Workflow Master, Minimal Change Engineer, Accessibility Auditor (whole 6-agent set — too small to split into divisions) |
+| recall | Recall Lead | Frontend Developer, UI Designer, Code Reviewer, Git Workflow Master, Minimal Change Engineer (whole 5-agent set) |
+
+Each dispatcher lives only in the repo it manages (custom subagents are
+project-scoped — a dispatcher can't reach across repos). This HQ copy keeps
+just the Sales pilot as the reference example of the pattern; the real,
+in-use dispatchers are in each project's own `.claude/agents/`.
+
+**Still open:** only the Sales pilot has actually been live-tested with
+`claude -p`. The others follow the same, now-confirmed mechanics (dispatcher
+with `Task`, specialists without it), but haven't each been individually
+run. If one behaves unexpectedly, treat it the same way the Sales pilot's
+synthesis bug was handled — check what actually happened before trusting
+what the agent claims happened.
