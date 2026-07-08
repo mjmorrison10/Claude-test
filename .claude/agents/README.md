@@ -21,33 +21,41 @@ applies to it, so agents are active without needing this repo attached too.
 To add an agent to a project, copy its `.md` file from here into that repo's
 `.claude/agents/`.
 
-## Org-chart pilot: manager → specialist delegation
+## Org-chart pilot: dispatcher → specialist delegation
 
 `sales-head-of-sales.md` + `sales-outbound-strategist.md` +
-`sales-discovery-coach.md` + `sales-deal-strategist.md` are a test of
-hierarchical delegation (you → Head of Sales → specialists → results flow
-back up), inspired by a two-tier chain-of-command setup.
+`sales-discovery-coach.md` + `sales-deal-strategist.md` — tested live with
+`claude -p` against this repo as the project directory.
 
-How it's built:
-- **Head of Sales** (`tools: Task, Read, Write, TodoWrite`) is the only one
-  of the four with a delegation tool, and its prompt explicitly limits it to
-  delegating to its three named reports only, one call each, no re-chaining.
-- **Outbound Strategist / Discovery Coach / Deal Strategist**
-  (`tools: Read, Write, Grep, Glob, WebSearch, WebFetch`) have no `Task` in
-  their tool list at all — they structurally cannot spawn any agent,
-  regardless of what a prompt tells them to do. This is what actually
-  prevents runaway recursion; the prompt instructions are a secondary
-  safeguard, not the mechanism itself.
+**Confirmed:**
+- Nested delegation works. The top-level session delegated to Head of
+  Sales, which in turn delegated to all three specialists — genuine
+  two-level Task nesting, not simulated.
+- No runaway recursion. None of the three specialists attempted to spawn
+  anything further. That's the `tools:` restriction working as designed —
+  they have no `Task` in their tool list, so they structurally cannot spawn
+  an agent regardless of what any prompt says. That's the actual guard
+  against infinite loops; prompt instructions are a secondary safeguard,
+  not the mechanism.
+- **Managers can't reliably see their own reports' output.** A specialist's
+  result routes back to the top-level caller, not to the manager that
+  delegated to it. Head of Sales never saw what its team returned, and
+  correctly refused to fabricate a synthesis rather than hallucinate one —
+  the top-level session ended up doing the synthesis itself from the raw
+  specialist outputs.
 
-**Known limitation:** whether a subagent can itself call `Task` to invoke a
-further subagent (true nested delegation, not just you → one subagent) is a
-Claude Code platform capability, not something these files control. It was
-not testable from the remote multi-repo session that built this — that
-session's own subagent tool only exposes a fixed built-in set and does not
-load custom `.claude/agents/*.md` from any project directory. To find out if
-it actually works, open Claude Code (CLI or IDE) with this repo as the
-project directory and ask it to delegate a sales task to Head of Sales —
-watch whether it in turn spawns the three specialists or just does the work
-itself. If nesting isn't supported, flatten this to one dispatcher agent
-that delegates directly to all specialists instead of routing through a
-middle manager.
+**Adopted design, given that:** every manager agent is a **dispatcher, not
+a synthesizer**. Its job is to scope the incoming request and delegate to
+the right report(s) with a narrow brief — not to collect, merge, or speak
+for what comes back. Synthesis happens one level up, at whoever actually
+receives the results (in practice: the top-level session, i.e. the user or
+the calling Claude Code instance). `sales-head-of-sales.md` is written this
+way: no "synthesize your team's output" instruction, just "delegate, then
+report which reports you used."
+
+This means a deep chain of command (CEO → Head of X → team, with each layer
+synthesizing before reporting up) is not what actually happens today —
+what works is one dispatcher layer per delegation, with synthesis always
+landing at the top. Scaling this to other divisions should follow the same
+pattern: a dispatcher agent per team, tools scoped to `Task` + read-only,
+no synthesis responsibility in the prompt.
