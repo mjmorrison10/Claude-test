@@ -1,0 +1,5 @@
+# GSD Core writes its hook wiring here with an absolute path to the node binary
+# of whatever machine ran the installer, so it cannot be shared. Each machine
+# regenerates it by re-running:
+#   npx @opengsd/gsd-core@latest --claude --local --profile=standard
+.claude/settings.local.json
